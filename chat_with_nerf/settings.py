@@ -6,8 +6,6 @@ class Chat_With_NeRF_Settings:
     INITIAL_MSG_FOR_DISPLAY = "Hello there! What can I help you find in this room?"
     MAX_TURNS = 10
     USE_FAKE_GROUNDER: bool = False
-    TYPE_CAPTIONER = "llava"
-    LLAVA_PATH = "/workspace/chat-with-nerf-dev/pre-trained-weights/LLaVA/LLaVA-13B-v0"
     DEFAULT_IMAGE_TOKEN = "<image>"
     DEFAULT_IMAGE_PATCH_TOKEN = "<im_patch>"
     DEFAULT_IM_START_TOKEN = "<im_start>"
